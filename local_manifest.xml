@@ -10,9 +10,9 @@
 	<remote name="salik" fetch="https://github.com/P-Salik" />
 	
      	<project path="device/realme/moon" name="device_realme_moon" remote="me" revision="lineage" />
-     	<project path="vendor/realme/moon" name="vendor_realme_moon" remote="dps" revision="twelve" />
+     	<project path="vendor/realme/moon" name="android_vendor_realme_moon" remote="dps" revision="twelve" />
 	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="dps" revision="twelve-rmui2" /> 
-     	<project path="kernel/realme/moon" name="kernel_realme_moon" remote="me" revision="12-rui2" />	
+     	<project path="kernel/realme/moon" name="android_kernel_realme_moon" remote="me" revision="12-rui2" />	
 	
         <remove-project name="android_frameworks_opt_net_ims" />
      	<project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ims" revision="aosp-12" />
