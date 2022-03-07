@@ -18,7 +18,6 @@
 	
 	
      	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="parts" revision="aosp12" />
-	<remove-project name="HyperTeam/android_packages_apps_RealmeParts" />
 	<project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ims" revision="aosp-12" />
         <remove-project name="android_frameworks_opt_net_ims" />
 	<project path="external/selinux" name="android_external_selinux" remote="cipher" revision="twelve" />
